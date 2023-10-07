@@ -1,4 +1,4 @@
-# LoL Human Telegram Bot
+# DDoS Telegam Bot Made By Zippy
 
 # Installation
 
@@ -9,8 +9,8 @@
 
 ## Cloning this repo
 ```cmd
-> git clone https://github.com/LoL-Human/TelegramBot-NodeJS
-> cd TelegramBot-NodeJS
+> git clone 
+> cd RexonC2
 ```
 
 ## Install the package

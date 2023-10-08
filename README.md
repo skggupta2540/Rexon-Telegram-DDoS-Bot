@@ -9,7 +9,7 @@
 
 ## Cloning this repo
 ```cmd
-> git clone 
+> git clone https://github.com/SenzSensei/RexonC2
 > cd RexonC2
 ```
 
@@ -19,13 +19,13 @@
 ```
 
 ## Edit config file
-Edit the required value in `config.json`. You can get the apikey at [`LoL Human Rest API`](http://api.lolhuman.xyz/). And get bot token at [`@BotFather`](http://t.me/BotFather).
+Edit the required value in `config.json`. And get bot token at [`@BotFather`](http://t.me/BotFather).
 ```json
 {
     "apikey": "",
     "bot_token": "",
-    "owner": "LoL Human",
-    "ownerLink": "https://t.me/LoLHumen",
+    "owner": "Zippy",
+    "ownerLink": "https://t.me/z1ppyz",
     "version": "1.0.0",
     "prefix": "/"
 }
@@ -37,7 +37,7 @@ Edit the required value in `config.json`. You can get the apikey at [`LoL Human 
 ```
 
 ## Note:
-* You can request a case in my [`WhatsApp`](http://wa.me/62895418200111).
+* You can request a case in my [`Telegram`](https://t.me/z1ppyz).
 
 # Thanks To
 * [`Telegraf`](https://github.com/telegraf/telegraf)

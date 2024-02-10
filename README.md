@@ -1,8 +1,6 @@
-# DDoS Telegam Bot Made By Senz
+# DDoS Telegam Bot Using API Made By Senz
 
 # Installation
-
-## Windows
 * [`Download Node JS`](https://nodejs.org/en/download/)
 
 

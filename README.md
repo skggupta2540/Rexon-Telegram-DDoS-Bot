@@ -1,16 +1,15 @@
-# DDoS Telegam Bot Made By Zippy
+# DDoS Telegam Bot Made By Senz
 
 # Installation
 
 ## Windows
 * [`Download Node JS`](https://nodejs.org/en/download/)
-* [`Download Git`](https://git-scm.com/download/win)
 
 
 ## Cloning this repo
 ```cmd
-> git clone https://github.com/SenzSensei/RexonC2
-> cd RexonC2
+> git clone https://github.com/senzgt/Rexon-Telegram-DDoS-Bot
+> cd Rexon-Telegram-DDoS-Bot
 ```
 
 ## Install the package
@@ -37,9 +36,8 @@ Edit the required value in `config.json`. And get bot token at [`@BotFather`](ht
 ```
 
 ## Note:
-* You can request a case in my [`Telegram`](https://t.me/z1ppyz).
+* You can request a case in my [`Telegram`](https://t.me/senzv1).
 
 # Thanks To
 * [`Telegraf`](https://github.com/telegraf/telegraf)
-* [`Pais`](https://github.com/Paiiss)
-* `Ben`
+* [`LolHumans`](https://github.com/LoL-Human)

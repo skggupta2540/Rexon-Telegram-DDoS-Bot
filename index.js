@@ -1,3 +1,5 @@
+// Credit: Senz
+
 const { fetchJson, range, parseMarkdown } = require('./lib/function')
 const { Telegraf, Context } = require('telegraf')
 const help = require('./lib/help')

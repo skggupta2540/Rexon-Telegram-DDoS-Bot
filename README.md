@@ -19,10 +19,9 @@
 Edit the required value in `config.json`. And get bot token at [`@BotFather`](http://t.me/BotFather).
 ```json
 {
-    "apikey": "",
     "bot_token": "",
-    "owner": "Zippy",
-    "ownerLink": "https://t.me/z1ppyz",
+    "owner": "Senz",
+    "ownerLink": "https://t.me/senzv1",
     "version": "1.0.0",
     "prefix": "/"
 }
@@ -34,7 +33,7 @@ Edit the required value in `config.json`. And get bot token at [`@BotFather`](ht
 ```
 
 ## Note:
-* You can request a case in my [`Telegram`](https://t.me/senzv1).
+* Ask & Report bug Contact me in [`Telegram`](https://t.me/senzv1).
 
 # Thanks To
 * [`Telegraf`](https://github.com/telegraf/telegraf)

@@ -1,7 +1,7 @@
 {
-	"name": "telegram-bot",
+	"name": "Rexon-Telegram-DDoS-Bot",
 	"version": "1.1.0",
-	"description": "A simple telegram bot build with node js",
+	"description": "A simple telegram ddos bot build with node js",
 	"main": "index.js",
 	"directories": {
 		"lib": "lib"
@@ -19,19 +19,19 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/LoL-Human/TelegramBot-NodeJS.git"
+		"url": "git+https://github.com/senzgt/TRexon-Telegram-DDoS-Bot.git"
 	},
 	"keywords": [
 		"telegram",
 		"bot",
 		"telegram-bot"
 	],
-	"author": "LoL Human",
+	"author": "Senz",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/LoL-Human/TelegramBot-NodeJS/issues"
+		"url": "https://github.com/senzgt/Rexon-Telegram-DDoS-Bot/issues"
 	},
-	"homepage": "https://github.com/LoL-Human/TelegramBot-NodeJS#readme",
+	"homepage": "https://github.com/senzgt/Rexon-Telegram-DDoS-Bot#readme",
 	"devDependencies": {
 		"nodemon": "^3.0.1"
 	}
